@@ -11,9 +11,6 @@ WORKDIR /app
 COPY pom.xml .
 COPY src ./src
 
-# Build the project
-RUN mvn clean package && ls -l /app/target
-
 # Set the working directory for the runtime
 WORKDIR /app
 
