@@ -17,5 +17,4 @@ WORKDIR /app
 # Expose any necessary ports
 EXPOSE 8080
 
-# Run the built JAR
-CMD ["java", "-jar", "target/hexlet-java-bot-02-1.0-SNAPSHOT.jar"]
+
